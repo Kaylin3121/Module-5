@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #FFD700;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+background-image: space;
+box-shadow: black;
+text-shadow: gray ;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#username{
+  color:aqua;
+} 
+
+
+.my-button{
+  color:blueviolet;
+}
+
+form input{
+  color: red;
+}
+
+*{
+  margin:0,1,2,3;
+  padding:0,1,2,3;
+}
+
+/*I edited my stylesheet.
+*/
+
+h2{
+  text-align: center;
+}
+
+footer{
+  position:absolute;
+  bottom: 0; 
+  
+}
+
+nav{
+  position:relative; 
+}
+
+audio{
+  position:fixed;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  html {
+    /* Adjust the styles for mobile devices here */
+  }
+
+  h1 {
+    /* Adjust the styles for h1 on mobile devices here */
+  }
+
+  #username {
+    /* Adjust the styles for #username on mobile devices here */
+  }
+
+  .my-button {
+    /* Adjust the styles for .my-button on mobile devices here */
+  }
+
+  form input {
+    /* Adjust the styles for form input on mobile devices here */
+  }
+
+  h2 {
+    /* Adjust the styles for h2 on mobile devices here */
+  }
+
+  footer {
+    /* Adjust the styles for footer on mobile devices here */
+  }
+
+  nav {
+    /* Adjust the styles for nav on mobile devices here */
+  }
+
+  audio {
+    /* Adjust the styles for audio on mobile devices here */
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    /* Adjust the styles for tablets here */
+  }
+
+  h1 {
+    /* Adjust the styles for h1 on tablets here */
+  }
+
+  #username {
+    /* Adjust the styles for #username on tablets here */
+  }
+
+  .my-button {
+    /* Adjust the styles for .my-button on tablets here */
+  }
+
+  form input {
+    /* Adjust the styles for form input on tablets here */
+  }
+
+  h2 {
+    /* Adjust the styles for h2 on tablets here */
+  }
+
+  footer {
+    /* Adjust the styles for footer on tablets here */
+  }
+
+  nav {
+    /* Adjust the styles for nav on tablets here */
+  }
+
+  audio {
+    /* Adjust the styles for audio on tablets here */
+  }
+}
+
+
